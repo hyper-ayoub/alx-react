@@ -1,20 +1,19 @@
 {
   "name": "task_0",
   "version": "1.0.0",
-  "description": "task-0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "webpack",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jquery": "^3.7.1",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
 }
-
