@@ -16,5 +16,5 @@
                         https://www.sitepoint.com/webpack-beginner-guide/
 
 
-##  🔑start with jquery
+##  🔑Start with jquery
                         https://www.npmjs.com/package/jquery#including-jquery
