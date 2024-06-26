@@ -3,6 +3,9 @@
 # start your projet
 npm init -y
 
+# directory start (package.json)
+npm install
+
 # install webpack and webpack CLI 
 npm install webpack webpack-cli --save-dev
 
