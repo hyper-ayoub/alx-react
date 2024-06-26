@@ -19,18 +19,18 @@ module.exports = {
   plugins: [ //Plugin to clean build folder: ✅//
      new HtmlWebpackPlugin({
        title: 'Development',
-       template: path.resolve(__dirname, './public/index.html'),
+       template: path.resolve(__dirname, './public/index.html'), //plugin to Webpack to automatically create an index.html HTML file ✅//
        filename: 'index.html',
       
      }),
      new CleanWebpackPlugin(),
     ],
-  output: { // entery point ✅//
+  output: { // entry point ✅//
     path: path.resolve(__dirname, 'public'),
     filename: '[name].bundle.js',
     clean: true,
   }, 
-  performance: {
+  performance: { // webpack's performance hints✅//
     hints: false,
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,
