@@ -7,6 +7,6 @@ h1{
 	font-weight: bold;
         height: 200px;
         width: 200px;
-        background: url('../assets/holberton-logo.jpg');
+        background: url('../../assets/holberton-logo.jpg');
         background-size: 200px 200px;
 }
