@@ -32,8 +32,8 @@ module.exports = {
   }, 
   performance: { // webpack's performance hints✅//
     hints: false,
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000,
+    maxEntrypointSize: 512000, //Sets the maximum size for an entry point✅//
+    maxAssetSize: 512000, //Sets the maximum size for an individual asset ✅//
   },
   module: {
     rules: [ 
