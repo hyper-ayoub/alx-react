@@ -1,0 +1,19 @@
+/* this is the notification style */
+.Notifications {
+    border: 3px dashed red;
+    padding: 20px;
+
+}
+
+div>p {
+    color: black;
+    font-size: 30px;
+
+}
+
+ul>li {
+    color: red;
+    font-size: 25px;
+    
+    
+}
