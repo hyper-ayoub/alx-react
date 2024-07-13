@@ -1,0 +1,23 @@
+/* this is the notification style */
+.Notifications {
+    border: 3px dashed red;
+    padding: 20px;
+
+}
+
+div>p {
+    color: black;
+    font-size: 30px;
+
+}
+
+ul>li {
+    color: red;
+    font-size: 25px;
+    
+    
+}
+/*** ad this to change teh color of notification  start **/
+[data-notification-type='default'] {
+	color: blue;
+}
