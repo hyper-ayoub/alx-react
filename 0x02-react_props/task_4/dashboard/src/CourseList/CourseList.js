@@ -4,7 +4,7 @@ import CourseListRow from './CourseListRow'; // Assuming CourseListRow component
 
 const CourseList = () => {
     return (
-        <table id='CourseList'>
+        <table data-testid='CourseList'>
             <thead>
                 <CourseListRow textFirstCell="Available courses" isHeader={true} />
                 <CourseListRow textFirstCell="Course name" textSecondCell="Credit" isHeader={true} />
