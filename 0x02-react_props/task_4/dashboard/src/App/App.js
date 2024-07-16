@@ -16,8 +16,9 @@ import '../CourseList/CourseList.css'
 // add the prop-type && statement and statement of  => isLoggedIn //
 
 
-export default function App(isLoggedIn) {
+export default function App({isLoggedIn}) {
   return (
+    
     <>
       <Notifications />
       <Header />
